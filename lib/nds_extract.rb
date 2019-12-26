@@ -25,11 +25,11 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  director_index = 0
+  dir_index = 0
   list = []
-  while director_index < source.size do
-    list << source[director_index][:name] 
-    director_index += 1
+  while dir_index < source.size do
+    list << source[dir_index][:name] 
+    dir_index += 1
   end
   return list
 end
